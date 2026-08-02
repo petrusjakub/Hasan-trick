@@ -5,6 +5,10 @@ import { TextSlide } from "../components/ShortTemplate";
  * Duration: 10 seconds (300 frames at 30fps)
  * Topic: How compound interest turns small investments into massive wealth over time.
  *
+ * This example uses TEXT-ONLY mode (no images/audio) to demonstrate
+ * backward compatibility. For a full example with images + audio + captions,
+ * see src/data/short-investing-101.ts
+ *
  * Script breakdown:
  * - Slide 1 (0-2s): Hook / Title
  * - Slide 2 (2-4s): The key insight
@@ -21,6 +25,7 @@ export const compoundInterestSlides: TextSlide[] = [
     duration: 60,
     type: "title",
     fontSize: 64,
+    // To add an image: image: "images/compound-title.png", imageZoom: "in"
   },
   {
     text: "Your money earns money.\nThen THAT money earns money too.",
