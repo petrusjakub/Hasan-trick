@@ -12,3 +12,9 @@ export type { BrandWatermarkProps } from "./BrandWatermark";
 
 export { ShortTemplate } from "./ShortTemplate";
 export type { ShortTemplateProps, TextSlide } from "./ShortTemplate";
+
+export { KenBurnsImage } from "./KenBurnsImage";
+export type { KenBurnsImageProps } from "./KenBurnsImage";
+
+export { Captions } from "./Captions";
+export type { Caption, CaptionsProps } from "./Captions";
